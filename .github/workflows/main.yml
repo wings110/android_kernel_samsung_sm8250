@@ -48,10 +48,6 @@ jobs:
 
 
 
-    - name: 安装 ksu
-      run: |
-        cd $GITHUB_WORKSPACE/kernel_workspace/android-kernel
-        curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.5
 
                
     - name: 设置ccache缓存
